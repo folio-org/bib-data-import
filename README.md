@@ -22,7 +22,7 @@ A Perl script to load binary MARC records into a FOLIO system using the [test-da
 **perl import.pl** \[**-h**\] **-t** *tenant\_id* **-u**
 *storage\_URL* \[**-f** *number\_of\_processes*\]
 \[**-r** *rules\_file*\] \[**--drop-indexes**\] \[**--analyze**\]
-\[**--db-credentials** *db\_credentials\_file*\] *import\_directory* \[*import\_directory*... \] *data\_loader\_URL* 
+\[**--db-credentials** *db\_credentials\_file*\] *import\_directory* \[*import\_directory*... \] *data\_loader\_URL*
 
 ### Options
 **-h** : Print help message.
