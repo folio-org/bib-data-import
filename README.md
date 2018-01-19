@@ -60,3 +60,10 @@ The *db\_credentials\_file* is a simple JSON file using the following format:
 ```
 
 The values, of course, depend on your particular installation.
+
+## Additional information
+
+### Issue tracker
+
+See project [FOLIO](https://issues.folio.org/browse/FOLIO)
+at the [FOLIO issue tracker](http://dev.folio.org/community/guide-issues).
