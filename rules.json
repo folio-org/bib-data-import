@@ -269,7 +269,7 @@
         {
           "target": "identifiers.value",
           "description": "LCCN",
-          "subfield": ["z"]
+          "subfield": ["z"],
           "rules": [
             {
               "conditions": [
