@@ -173,7 +173,7 @@
           "conditions": [
             {
               "type": "char_select",
-              "parameter": "7-8",
+              "parameter": "6-7",
               "value": "as",
               "LDR": true
             }
@@ -185,7 +185,7 @@
           "conditions": [
             {
               "type": "char_select",
-              "parameter": "7-8",
+              "parameter": "6-7",
               "value": "am",
               "LDR": true
             }
@@ -197,7 +197,7 @@
           "conditions": [
             {
               "type": "char_select",
-              "parameter": "7-8",
+              "parameter": "6-7",
               "value": "tm",
               "LDR": true
             }
@@ -215,7 +215,7 @@
           "conditions": [
             {
               "type": "char_select",
-              "parameter": "36-38"
+              "parameter": "35-37"
             }
           ]
         }
@@ -1159,7 +1159,7 @@
           "target": "contributors.name",
           "description": "Personal Name",
           "subfield": ["a","b","c","d","j","q"],
-          "applyRulesOnConcatedData": true,
+          "applyRulesOnConcatenatedData": true,
           "rules": [
             {
               "conditions": [
@@ -1202,7 +1202,7 @@
           "target": "contributors.name",
           "description": "Corporate Name",
           "subfield": ["a","b","c","d","g","n"],
-          "applyRulesOnConcatedData": true,
+          "applyRulesOnConcatenatedData": true,
           "rules": [
             {
               "conditions": [
@@ -1245,7 +1245,7 @@
           "target": "contributors.name",
           "description": "Meeting Name",
           "subfield": ["a","b","c","d","g","n","q"],
-          "applyRulesOnConcatedData": true,
+          "applyRulesOnConcatenatedData": true,
           "rules": [
             {
               "conditions": [
@@ -1264,7 +1264,7 @@
       "target": "alternativeTitles",
       "description": "Alternative Title",
       "subfield": ["a","d","f","g","h","k","l","m","n","o","p","r","s","t"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1281,7 +1281,7 @@
       "target": "alternativeTitles",
       "description": "Alternative Title",
       "subfield": ["a","d","f","g","k","l"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1298,7 +1298,7 @@
       "target": "title",
       "description": "Resource Title",
       "subfield": ["a","b","c","f","g","h","k","n","p","s"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1315,7 +1315,7 @@
       "target": "alternativeTitles",
       "description": "Alternative Title",
       "subfield": ["a","b","f","g","h","i","n","p"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1332,7 +1332,7 @@
       "target": "alternativeTitles",
       "description": "Alternative Title",
       "subfield": ["a","b","f","g","h","n","p"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1349,7 +1349,7 @@
       "target": "edition",
       "description": "Edition",
       "subfield": ["a","b"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1456,7 +1456,7 @@
       "target": "series",
       "description": "Series Statement",
       "subfield": ["a","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1505,7 +1505,7 @@
       "target": "notes",
       "description": "Dissertation Note",
       "subfield": ["a","b","c","d","g","o"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1538,7 +1538,7 @@
       "target": "notes",
       "description": "Formatted Contents Note",
       "subfield": ["a","g","r","t","u"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1555,7 +1555,7 @@
       "target": "notes",
       "description": "Restrictions on Access Note",
       "subfield": ["a","b","c","d","e","f","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1572,7 +1572,7 @@
       "target": "notes",
       "description": "Scale Note for Graphic Material",
       "subfield": ["a","b"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1605,7 +1605,7 @@
       "target": "notes",
       "description": "Citation/References Note",
       "subfield": ["a","b","c","u","x","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1638,7 +1638,7 @@
       "target": "notes",
       "description": "Type of Report and Period Covered Note",
       "subfield": ["a","b"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1655,7 +1655,7 @@
       "target": "notes",
       "description": "Data Quality Note",
       "subfield": ["a","b","c","d","e","f","g","h","i","j","k","m","u","z"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1704,7 +1704,7 @@
       "target": "notes",
       "description": "Date/Time and Place of an Event Note",
       "subfield": ["a","d","o","p","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1721,7 +1721,7 @@
       "target": "notes",
       "description": "Summary, Etc.",
       "subfield": ["a","b","c","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1738,7 +1738,7 @@
       "target": "notes",
       "description": "Target Audience Note",
       "subfield": ["a","b","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1771,7 +1771,7 @@
       "target": "notes",
       "description": "Preferred Citation of Described Materials Note",
       "subfield": ["a","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1804,7 +1804,7 @@
       "target": "notes",
       "description": "Study Program Information Note",
       "subfield": ["a","b","c","d","i","x","z"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1821,7 +1821,7 @@
       "target": "notes",
       "description": "Additional Physical Form Available Note",
       "subfield": ["a","b","c","d","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1838,7 +1838,7 @@
       "target": "notes",
       "description": "Reproduction Note",
       "subfield": ["a","b","c","d","e","f","m","n","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1855,7 +1855,7 @@
       "target": "notes",
       "description": "Original Version Note",
       "subfield": ["a","b","c","e","f","k","l","m","n","o","p","t","x","z","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1872,7 +1872,7 @@
       "target": "notes",
       "description": "Location of Originals/Duplicates Note",
       "subfield": ["a","b","c","d","g","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1889,7 +1889,7 @@
       "target": "notes",
       "description": "Funding Information Note",
       "subfield": ["a","b","c","d","e","f","g","h"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1906,7 +1906,7 @@
       "target": "notes",
       "description": "System Details Note",
       "subfield": ["a","i","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1923,7 +1923,7 @@
       "target": "notes",
       "description": "Terms Governing Use and Reproduction Note",
       "subfield": ["a","b","c","d","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1940,7 +1940,7 @@
       "target": "notes",
       "description": "Immediate Source of Acquisition Note",
       "subfield": ["a","b","c","d","e","f","h","n","o","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1957,7 +1957,7 @@
       "target": "notes",
       "description": "Information Relating to Copyright Status",
       "subfield": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1974,7 +1974,7 @@
       "target": "notes",
       "description": "Location of Other Archival Materials Note",
       "subfield": ["a","b","c","d","e","n","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -1991,7 +1991,7 @@
       "target": "notes",
       "description": "Biographical or Historical Data",
       "subfield": ["a","b","u"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2008,7 +2008,7 @@
       "target": "notes",
       "description": "Language Note",
       "subfield": ["a","b","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2057,7 +2057,7 @@
       "target": "notes",
       "description": "Entity and Attribute Information Note",
       "subfield": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","u","z"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2074,7 +2074,7 @@
       "target": "notes",
       "description": "Cumulative Index/Finding Aids Note",
       "subfield": ["a","b","c","d","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2091,7 +2091,7 @@
       "target": "notes",
       "description": "Information About Documentation Note",
       "subfield": ["a","z"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2108,7 +2108,7 @@
       "target": "notes",
       "description": "Ownership and Custodial History",
       "subfield": ["a","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2125,7 +2125,7 @@
       "target": "notes",
       "description": "Copy and Version Identification Note",
       "subfield": ["a","b","c","d","e","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2142,7 +2142,7 @@
       "target": "notes",
       "description": "Binding Information",
       "subfield": ["a","u","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2159,7 +2159,7 @@
       "target": "notes",
       "description": "Case File Characteristics Note",
       "subfield": ["a","b","c","d","e","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2208,7 +2208,7 @@
       "target": "notes",
       "description": "Publications About Described Materials Note",
       "subfield": ["a","z","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2225,7 +2225,7 @@
       "target": "notes",
       "description": "Action Note",
       "subfield": ["a","b","c","d","e","f","h","i","j","k","l","n","o","u","x","z","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2242,7 +2242,7 @@
       "target": "notes",
       "description": "Accumulation and Frequency of Use Note",
       "subfield": ["a","b","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2259,7 +2259,7 @@
       "target": "notes",
       "description": "Exhibitions Note",
       "subfield": ["a","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2276,7 +2276,7 @@
       "target": "notes",
       "description": "Awards Note",
       "subfield": ["a","3"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2293,7 +2293,7 @@
       "target": "notes",
       "description": "Source of Description Note",
       "subfield": ["a"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2310,7 +2310,7 @@
       "target": "subjects",
       "description": "Subject Headings",
       "subfield": ["a","b","c","d","j","q","t","f","g","k","l","m","n","o","p","r","s","x","y","z","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2341,7 +2341,7 @@
       "target": "subjects",
       "description": "Subject Headings",
       "subfield": ["a","b","c","d","t","f","g","k","l","m","n","o","p","s","x","y","z","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2372,7 +2372,7 @@
       "target": "subjects",
       "description": "Subject Headings",
       "subfield": ["a","c","d","e","q","t","f","g","k","l","m","n","o","p","r","s","x","y","z","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2403,7 +2403,7 @@
       "target": "subjects",
       "description": "Subject Headings",
       "subfield": ["a","d","f","g","k","l","m","n","o","p","r","s","x","y","z","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2434,7 +2434,7 @@
       "target": "subjects",
       "description": "Subject Headings",
       "subfield": ["a","c","d","g","x","y","z","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2471,7 +2471,7 @@
           "subfields": ["a","x","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2494,7 +2494,7 @@
           "subfields": ["a","b","c","d","x","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2517,7 +2517,7 @@
           "subfields": ["a","x","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2534,7 +2534,7 @@
       "target": "subjects",
       "description": "Subject Headings",
       "subfield": ["a"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2557,7 +2557,7 @@
           "subfields": ["a","b","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2580,7 +2580,7 @@
           "subfields": ["a","b","x","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2603,7 +2603,7 @@
           "subfields": ["a","k","x","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2626,7 +2626,7 @@
           "subfields": ["a","x","y","z","v"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2649,7 +2649,7 @@
           "subfields": ["a","b","c","d","f","g","h"]
         }
       ],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
@@ -2690,7 +2690,7 @@
           "target": "contributors.name",
           "description": "Personal Name",
           "subfield": ["a","b","c","d","j","q"],
-          "applyRulesOnConcatedData": true,
+          "applyRulesOnConcatenatedData": true,
           "rules": [
             {
               "conditions": [
@@ -2733,7 +2733,7 @@
           "target": "contributors.name",
           "description": "Corporate Name",
           "subfield": ["a","b","c","d","g","n"],
-          "applyRulesOnConcatedData": true,
+          "applyRulesOnConcatenatedData": true,
           "rules": [
             {
               "conditions": [
@@ -2776,7 +2776,7 @@
           "target": "contributors.name",
           "description": "Meeting Name",
           "subfield": ["a","b","c","d","g","n","q"],
-          "applyRulesOnConcatedData": true,
+          "applyRulesOnConcatenatedData": true,
           "rules": [
             {
               "conditions": [
@@ -2837,7 +2837,7 @@
       "target": "series",
       "description": "Series Statement",
       "subfield": ["a","d","f","g","h","k","l","m","n","o","p","r","s","t","v"],
-      "applyRulesOnConcatedData": true,
+      "applyRulesOnConcatenatedData": true,
       "rules": [
         {
           "conditions": [
