@@ -91,7 +91,7 @@ foreach my $file (@import_files) {
   }
   $i++;
 }
-  
+
 # Post rules file
 print "Posting rules file...";
 my $rules_raw = slurp($rules);
