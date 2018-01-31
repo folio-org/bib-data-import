@@ -135,6 +135,7 @@ if ($drop_indexes) {
     warn "no indexes found on table ${tenant}_mod_inventory_storage.instance\n";
   }
 }
+$dbh->disconnect() if $dbh;
 
 # Fork processes for record load
 print "Loading MARC files...\n";
@@ -158,6 +159,17 @@ if ($forks > 1) {
 } else {
   load_records(@{$process_files[0]});
 }
+
+# Reinstate db connection
+if ($analyze || $drop_indexes) {
+  my $db_credentials_json = slurp($db_credentials);
+  my $db_credentials_ref = decode_json($db_credentials_json);
+  print "Reconnecting to db...";
+  $dbh = DBI->connect("dbi:Pg:dbname=$$db_credentials_ref{database};host=$$db_credentials_ref{host};port=$$db_credentials_ref{port}",$$db_credentials_ref{username},$$db_credentials_ref{password})
+    or die "Error connecting to database: $DBI::errstr\n";
+  print "OK\n";
+}
+
 
 # Reinstate indexes
 if ($indexes && @{$indexes}) {
@@ -188,6 +200,8 @@ my $total_duration = time() - $start_time;
 print "Record load completed in $total_duration secs.\n";
 
 exit;
+
+sub db_connect {
 
 sub load_records {
   my @import_files = @_;
