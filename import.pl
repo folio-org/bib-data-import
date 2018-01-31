@@ -7,6 +7,7 @@ use LWP;
 use JSON;
 use POSIX ":sys_wait_h";
 
+$| = 1;
 my $start_time = time();
 
 # Process command line
