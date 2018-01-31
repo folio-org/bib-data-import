@@ -121,16 +121,16 @@ if ($analyze || $drop_indexes) {
 # Drop indexes (save for reinstating after load)
 my $indexes;
 if ($drop_indexes) {
-  print "Dropping indexes pre-import...";
+  print "Dropping indexes pre-import...\n";
   $indexes = $dbh->selectall_arrayref("SELECT indexname, indexdef FROM pg_indexes WHERE schemaname = '${tenant}_mod_inventory_storage' AND tablename = 'instance'");
   if ($indexes && @{$indexes}) {
     foreach my $i (@{$indexes}) {
       if ($$i[0] ne 'instance_pkey') {
+        print "indexdef: $$i[1]\n";
         $dbh->do("DROP INDEX ${tenant}_mod_inventory_storage.$$i[0]")
           or warn "Unable to drop index ${tenant}_mod_inventory_storage.$$i[0]: $DBI::errstr\n";
       }
     }
-    print "done\n";
   } else {
     warn "no indexes found on table ${tenant}_mod_inventory_storage.instance\n";
   }
@@ -165,9 +165,11 @@ if ($indexes && @{$indexes}) {
   foreach my $i (@{$indexes}) {
     if ($$i[0] ne 'instance_pkey') {
       print "\t rebuilding $$i[0]...";
-      $dbh->do($$i[1])
-        or warn "Unable to reinstate index ${tenant}_mod_inventory_storage.$$i[0]: $DBI::errstr\n";
-      print "done\n";
+      if ($dbh->do($$i[1])) {
+        print "done\n";
+      } else {
+        warn "Unable to reinstate index ${tenant}_mod_inventory_storage.$$i[0]: $DBI::errstr\nIndex def: $$i[1]\n";
+      }
     }
   }
 }
@@ -175,9 +177,11 @@ if ($indexes && @{$indexes}) {
 # Analyze table
 if ($analyze) {
   print "Analyzing table...";
-  $dbh->do("VACUUM ANALYZE ${tenant}_mod_inventory_storage.instance")
-    or warn "table analyze failed: $DBI::errstr\n";
-  print "done\n";
+  if ($dbh->do("VACUUM ANALYZE ${tenant}_mod_inventory_storage.instance")) {
+    print "done\n";
+  } else {
+    warn "table analyze failed: $DBI::errstr\n";
+  }
 }
 
 my $total_duration = time() - $start_time;
