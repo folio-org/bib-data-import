@@ -202,8 +202,6 @@ print "Record load completed in $total_duration secs.\n";
 
 exit;
 
-sub db_connect {
-
 sub load_records {
   my @import_files = @_;
   my $req = HTTP::Request->new( 'POST',"$data_loader/load/marc-data?storageURL=$storage_url",
