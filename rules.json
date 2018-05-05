@@ -1,17 +1,6 @@
 {
   "001": [
-    {
-      "target": "source",
-      "description": "Source of instance record",
-      "subfield": [],
-      "rules": [
-        {
-          "conditions": [],
-          "value": "MARC21"
-        }
-      ]
-    },
-    {
+   {
       "target": "identifiers.identifierTypeId",
       "description": "Type for Control Number (001)",
       "subfield": [],
@@ -27,6 +16,17 @@
       "description": "Control Number (001)",
       "subfield": [],
       "rules": []
+    },
+    {
+      "target": "source",
+      "description": "Source of instance record",
+      "subfield": [],
+      "rules": [
+        {
+          "conditions": [],
+          "value": "MARC21"
+        }
+      ]
     }
   ],
   "008": [
