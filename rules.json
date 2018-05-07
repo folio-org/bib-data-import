@@ -165,7 +165,7 @@
               "LDR": true
             }
           ],
-          "value": "e8b311a6-3b21-03f2-2269-dd9310cb2d0c"
+          "value": "e8b311a6-3b21-43f2-a269-dd9310cb2d0c"
         },
         {
           "description": "Instance type for 3D artifact",
@@ -201,7 +201,7 @@
               "LDR": true
             }
           ],
-          "value": "2b94c631-fca9-a892-c730-03ee529ffe2c"
+          "value": "2b94c631-fca9-4892-a730-03ee529ffe2c"
         },
         {
           "description": "Instance type for books",
@@ -213,7 +213,7 @@
               "LDR": true
             }
           ],
-          "value": "2b94c631-fca9-a892-c730-03ee529ffe2c"
+          "value": "2b94c631-fca9-4892-a730-03ee529ffe2c"
         }
       ]
     },
@@ -1151,7 +1151,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "2b94c631-fca9-a892-c730-03ee529ffe2a"
+              "value": "2b94c631-fca9-4892-a730-03ee529ffe2a"
             }
           ]
         },
@@ -1194,7 +1194,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "2e48e713-17f3-7c13-09f8-23845bb210aa"
+              "value": "2e48e713-17f3-4c13-a9f8-23845bb210aa"
             }
           ]
         },
@@ -1237,7 +1237,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "e8b311a6-3b21-03f2-2269-dd9310cb2d0a"
+              "value": "e8b311a6-3b21-43f2-a269-dd9310cb2d0a"
             }
           ]
         },
@@ -2682,7 +2682,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "2b94c631-fca9-a892-c730-03ee529ffe2a"
+              "value": "2b94c631-fca9-4892-a730-03ee529ffe2a"
             }
           ]
         },
@@ -2725,7 +2725,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "2e48e713-17f3-7c13-09f8-23845bb210aa"
+              "value": "2e48e713-17f3-4c13-a9f8-23845bb210aa"
             }
           ]
         },
@@ -2768,7 +2768,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "e8b311a6-3b21-03f2-2269-dd9310cb2d0a"
+              "value": "e8b311a6-3b21-43f2-a269-dd9310cb2d0a"
             }
           ]
         },
@@ -2811,7 +2811,7 @@
           "rules": [
             {
               "conditions": [],
-              "value": "2b94c631-fca9-a892-c730-03ee529ffe2a"
+              "value": "2b94c631-fca9-4892-a730-03ee529ffe2a"
             }
           ]
         },
