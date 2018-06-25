@@ -1156,17 +1156,6 @@
           ]
         },
         {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "true"
-            }
-          ]
-        },
-        {
           "target": "contributors.name",
           "description": "Personal Name",
           "subfield": ["a","b","c","d","j","q"],
@@ -1199,17 +1188,6 @@
           ]
         },
         {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "true"
-            }
-          ]
-        },
-        {
           "target": "contributors.name",
           "description": "Corporate Name",
           "subfield": ["a","b","c","d","g","n"],
@@ -1238,17 +1216,6 @@
             {
               "conditions": [],
               "value": "e8b311a6-3b21-43f2-a269-dd9310cb2d0a"
-            }
-          ]
-        },
-        {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "true"
             }
           ]
         },
@@ -2687,17 +2654,6 @@
           ]
         },
         {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "false"
-            }
-          ]
-        },
-        {
           "target": "contributors.name",
           "description": "Personal Name",
           "subfield": ["a","b","c","d","j","q"],
@@ -2726,17 +2682,6 @@
             {
               "conditions": [],
               "value": "2e48e713-17f3-4c13-a9f8-23845bb210aa"
-            }
-          ]
-        },
-        {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "false"
             }
           ]
         },
@@ -2773,17 +2718,6 @@
           ]
         },
         {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "false"
-            }
-          ]
-        },
-        {
           "target": "contributors.name",
           "description": "Meeting Name",
           "subfield": ["a","b","c","d","g","n","q"],
@@ -2816,17 +2750,6 @@
           ]
         },
         {
-          "target": "contributors.primary",
-          "description": "Primary contributor",
-          "subfield": ["a"],
-          "rules": [
-            {
-              "conditions": [],
-              "value": "false"
-            }
-          ]
-        },
-       {
           "target": "contributors.name",
           "description": "Personal Name (uncontrolled)",
           "subfield": ["a"],
