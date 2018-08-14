@@ -1,6 +1,181 @@
 {
   "001": [
-   {
+    {
+      "target": "instanceTypeId",
+      "description": "Instance type based on LDR/06",
+      "subfield": [],
+      "rules": [
+        {
+          "description": "Instance type for text",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "a",
+              "LDR": true
+            }
+          ],
+          "value": "6312d172-f0cf-40f6-b27d-9fa8feaf332f"
+        },
+        {
+          "description": "Instance type for notated music",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "c",
+              "LDR": true
+            }
+          ],
+          "value": "497b5090-3da2-486c-b57f-de5bb3c2e26d"
+        },
+        {
+          "description": "Instance type for notated music",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "d",
+              "LDR": true
+            }
+          ],
+          "value": "497b5090-3da2-486c-b57f-de5bb3c2e26d"
+        },
+        {
+          "description": "Instance type for cartographic content",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "e",
+              "LDR": true
+            }
+          ],
+          "value": "79a09d3a-bae8-433f-af70-9db9e134c662"
+        },
+        {
+          "description": "Instance type for cartographic content",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "f",
+              "LDR": true
+            }
+          ],
+          "value": "79a09d3a-bae8-433f-af70-9db9e134c662"
+        },
+        {
+          "description": "Instance type for moving image",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "g",
+              "LDR": true
+            }
+          ],
+          "value": "77469f80-b517-457e-b6e9-306237340287"
+        },
+        {
+          "description": "Instance type for nonmusical sound recording (spoken record)",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "i",
+              "LDR": true
+            }
+          ],
+          "value": "f7f4d525-5de9-4ba0-8625-ae2f96dbfc1c"
+        },
+        {
+          "description": "Instance type for performed music",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "j",
+              "LDR": true
+            }
+          ],
+          "value": "3be24c14-3551-4180-9292-26a786649c8b"
+        },
+        {
+          "description": "Instance type for image",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "k",
+              "LDR": true
+            }
+          ],
+          "value": "9eeda240-e773-4643-b037-06db69553b74"
+        },
+        {
+          "description": "Instance type for computer file",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "m",
+              "LDR": true
+            }
+          ],
+          "value": "db4e4829-351b-4825-94a9-72d1e442c49b"
+        },
+        {
+          "description": "Instance type for other",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "o",
+              "LDR": true
+            }
+          ],
+          "value": "a2c91e87-6bab-44d6-8adb-1fd02481fc4f"
+        },
+        {
+          "description": "Instance type for other",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "p",
+              "LDR": true
+            }
+          ],
+          "value": "a2c91e87-6bab-44d6-8adb-1fd02481fc4f"
+        },
+        {
+          "description": "Instance type for 3D form",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "r",
+              "LDR": true
+            }
+          ],
+          "value": "c1e95c2b-4efc-48cf-9e71-edb622cf0c22"
+        },
+        {
+          "description": "Instance type for text",
+          "conditions": [
+            {
+              "type": "char_select",
+              "parameter": "6",
+              "value": "t",
+              "LDR": true
+            }
+          ],
+          "value": "6312d172-f0cf-40f6-b27d-9fa8feaf332f"
+        }
+      ]
+    },
+    {
       "target": "identifiers.identifierTypeId",
       "description": "Type for Control Number (001)",
       "subfield": [],
@@ -30,193 +205,6 @@
     }
   ],
   "008": [
-    {
-      "target": "instanceTypeId",
-      "description": "Instance type based on LDR/06",
-      "subfield": [],
-      "rules": [
-        {
-          "description": "Instance type for notated music",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "c",
-              "LDR": true
-            }
-          ],
-          "value": "c2677271-188e-46c2-9593-71ba82b901e4"
-        },
-        {
-          "description": "Instance type for manuscript notated music",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "d",
-              "LDR": true
-            }
-          ],
-          "value": "c2e873be-4c99-4070-9133-76314941e166"
-        },
-        {
-          "description": "Instance type for maps",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "e",
-              "LDR": true
-            }
-          ],
-          "value": "e2f217ff-95ba-47d7-9150-b044f275e06e"
-        },
-        {
-          "description": "Instance type for maps",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "f",
-              "LDR": true
-            }
-          ],
-          "value": "e2f217ff-95ba-47d7-9150-b044f275e06e"
-        },
-        {
-          "description": "Instance type for projected medium (videorecording)",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "g",
-              "LDR": true
-            }
-          ],
-          "value": "85c58579-a833-4624-904a-754973374679"
-        },
-        {
-          "description": "Instance type for nonmusical sound recording (spoken record)",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "i",
-              "LDR": true
-            }
-          ],
-          "value": "a385b165-b103-4436-bbb3-02f9ef6f8a2c"
-        },
-        {
-          "description": "Instance type for musical sound recording",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "j",
-              "LDR": true
-            }
-          ],
-          "value": "2e48e713-17f3-4c13-a9f8-23845bb210ac"
-        },
-        {
-          "description": "Instance type for 2D nonprojectable graphic (charts, posters)",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "k",
-              "LDR": true
-            }
-          ],
-          "value": "ac011474-5e2c-49d4-a6aa-42193cbd8213"
-        },
-        {
-          "description": "Instance type for computer file",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "m",
-              "LDR": true
-            }
-          ],
-          "value": "4c72d83d-2625-4bde-8209-93abe245362e"
-        },
-        {
-          "description": "Instance type for kit",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "o",
-              "LDR": true
-            }
-          ],
-          "value": "20d12382-98a6-4e3a-ba50-dc35445b35c0"
-        },
-        {
-          "description": "Instance type for mixed materials",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "p",
-              "LDR": true
-            }
-          ],
-          "value": "e8b311a6-3b21-43f2-a269-dd9310cb2d0c"
-        },
-        {
-          "description": "Instance type for 3D artifact",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6",
-              "value": "r",
-              "LDR": true
-            }
-          ],
-          "value": "464102a7-1527-4bd6-9bca-886597cebf29"
-        },
-        {
-          "description": "Instance type for serials",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6-7",
-              "value": "as",
-              "LDR": true
-            }
-          ],
-          "value": "a35947c6-795f-41d4-9c34-e5668d925d3f"
-        },
-        {
-          "description": "Instance type for books",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6-7",
-              "value": "am",
-              "LDR": true
-            }
-          ],
-          "value": "2b94c631-fca9-4892-a730-03ee529ffe2c"
-        },
-        {
-          "description": "Instance type for books",
-          "conditions": [
-            {
-              "type": "char_select",
-              "parameter": "6-7",
-              "value": "tm",
-              "LDR": true
-            }
-          ],
-          "value": "2b94c631-fca9-4892-a730-03ee529ffe2c"
-        }
-      ]
-    },
     {
       "target": "languages",
       "description": "Language code",
